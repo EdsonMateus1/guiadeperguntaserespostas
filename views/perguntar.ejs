@@ -1,0 +1,23 @@
+<%- include('./partials/header.ejs') %>
+
+<body>
+    <!--usando recurso container do bootstrap-->
+    <%- include('./partials/navbar.ejs') %>
+    <div class="container">
+        <div class="card  card-header-tabs" >
+            <h3>Realizar Pergunta</h3>
+            <form method="POST" action="/saveres">
+                <!--indicando a roda para o formulario-->
+                <label>Titulo</label>
+                <input class="form-control" type="text" placeholder="Titulo" name="titulo">
+                <!--name usado para indentificar os campos do seu formulario-->
+                <br>
+                <labe>Descricao </label>
+                    <textarea class="form-control" placeholder="Descreva sua Pergunta" name="descricao"></textarea>
+                    <br>
+                    <button class="btn btn-success">Perguntar</button>
+            </form>
+        </div>
+    </div>
+</body>
+<%- include('./partials/footer.ejs') %>

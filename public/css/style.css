@@ -1,0 +1,41 @@
+body{
+    /*background-image:url("/img/bg-4.jpg"); */
+    background-color: tomato;
+    font-family: cursive;
+    border: initial 0px chartreuse;
+}
+
+div{
+    margin: 10px;
+    border: initial 0px chartreuse;
+}
+button{
+    background-color: tomato;
+}
+h1{
+    position: relative;
+    margin-left: 200px;
+    padding: 10px;
+    
+}
+.pergunta{
+    background-color: #dedede;
+    margin: auto;
+    margin-bottom: 50px;
+    border-width: 0px;
+}
+.respostas > h3{
+    position: relative;
+    margin: auto;
+    font-size: 50px;
+    color: darkgrey;
+}
+#perguntalink{
+    color: white;
+}
+.card-title{
+    background-color: #dedede;
+}
+/*
+vh corresponde a uma porcentagem da tela
+*/
