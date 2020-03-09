@@ -1,2 +1,2 @@
 # guiadeperguntaserespostas
-fins didaticos
+finalida didadica
